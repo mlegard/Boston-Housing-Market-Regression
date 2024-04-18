@@ -21,5 +21,8 @@ The analysis utilizes multiple linear regression techniques to explore the relat
 To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation: 
 
 ## Optimization
-Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data.  
-![Box-Cox transformation summary](images/finalSum.png)
+Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data.
+
+The chart below displays the optimal lambda values determined through the Box-Cox transformation, which wass utilized to stabilize variance and normalize the distribution of the dependent variable in the regression model. Each lambda value corresponds to a different variable, indicating the degree of transformation needed to meet the assumptions of linear regression.
+
+![Box-Cox transformation summary](images/optimalLambda.png)
