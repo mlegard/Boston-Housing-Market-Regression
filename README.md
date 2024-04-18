@@ -35,10 +35,13 @@ The preceding images provides a visual representation of the model's coefficient
 * Being located adjacent to the Charles River increases the median home value by approximately $2,413 on average compared to homes not adjacent, assuming other variables remain constant.
 
 ## Optimization
-Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data - key assumptions to the validity of the regression model.
+Having examined the significant impacts of our key predictors, the focus returns to further refining the model. Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data - key assumptions to the validity of the regression model.
 
-The chart below displays the optimal lambda values determined through the Box-Cox transformation, which wass utilized to stabilize variance and normalize the distribution of the dependent variable in the regression model. Each lambda value corresponds to a different variable, indicating the degree of transformation needed to meet the assumptions of linear regression.
+The chart below displays the optimal lambda values determined through the Box-Cox transformation, which was utilized to stabilize variance and normalize the distribution of the dependent variable in the regression model. Each lambda value corresponds to a different variable, indicating the degree of transformation needed to meet the assumptions of linear regression.
 
 ![Box-Cox transformation summary](images/optimalLambda.png)
 
-As it can be seen, 
+The transformation, with an optimal lambda value of 0.141414, was applied to the regression model to address non-normality of residuals. This transformation adjusts the scale and distribution of the data, aiming to reduce skewness and improve the model's validity.
+
+The effectiveness of this transformation can be visually assessed through the comparison of QQ-plots and histograms before and after applying the Box-Cox transformation. The first image below shows QQ-plots comparing the original and transformed data, highlighting the improved alignment with the normal line, indicative of a more normal distribution. The second image presents histograms of the data before and after transformation, where the smoothing of the distribution curve in the transformed histogram is evident, suggesting a successful normalization of the data.
+
