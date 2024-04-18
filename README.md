@@ -18,6 +18,11 @@ The analysis utilizes multiple linear regression techniques to explore the relat
 ## Results
 To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation below. Some basic statistics of this model on unseen test data are provided by the summary() output in R, which can also be seen below.
 
+<div align="center">
+  <img src="images/FFM.PNG" alt="Example Image">
+</div>
+
+
 ![Finalized Model](images/FFM.PNG)
 
 ![Summary of Finalized Model](images/finalSum.png)
