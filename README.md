@@ -22,3 +22,4 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
 
 ## Optimization
 Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data.  
+![Box-Cox transformation summary](images/finalSum.png)
