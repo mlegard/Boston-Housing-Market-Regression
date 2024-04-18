@@ -22,10 +22,9 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
   <img src="images/FFM.PNG" alt="Finalized Model">
 </div>
 
-
-![Finalized Model](images/FFM.PNG)
-
-![Summary of Finalized Model](images/finalSum.png)
+<div align="center">
+  <img src="images/finalSum.PNG" alt="Finalized Model Summary">
+</div>
 
 The preceding images provides a visual representation of the model's coefficients, and the summary() function in R indicates statistically significant p-values for all of the remaining features left in the model while the R-squared value indicates that approximately 73% of the variance in the median value of owner-occupied homes is explained by this model. These statistics underscore the relevance and effectiveness of the predictor variables and support the interpretations of how these variables influence the median value of owner-occupied homes, which are described below.
 
@@ -44,7 +43,9 @@ Having examined the significant impacts of our key predictors, the focus returns
 
 The chart below displays the optimal lambda values determined through the Box-Cox transformation, which was utilized to stabilize variance and normalize the distribution of the dependent variable in the regression model. Each lambda value corresponds to a different variable, indicating the degree of transformation needed to meet the assumptions of linear regression.
 
-![Box-Cox transformation summary](images/optimalLambda.PNG)
+<div align="center">
+  <img src="images/optimalLambda.PNG" alt="Optimal Lambda Value Via Box Cox Transformation">
+</div>
 
 The transformation, with an optimal lambda value of 0.141414, was applied to the regression model to address non-normality of residuals. This transformation adjusts the scale and distribution of the data, aiming to reduce skewness and improve the model's validity.
 
