@@ -18,7 +18,9 @@ To develop a predictive model for estimating the prices of houses based on their
 The analysis utilizes multiple linear regression techniques to explore the relationship between house prices and predictor variables such as crime rate, number of rooms, accessibility to highways, etc. The script performs data preprocessing, exploratory data analysis, model building, and validation steps.
 
 ## Results
-To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation: 
+To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation:
+
+!(images/final full model.png)
 
 ## Optimization
 Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data - key assumptions to the validity of the regression model.
