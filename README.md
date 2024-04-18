@@ -1,6 +1,6 @@
 # Boston Housing Market Analysis
 ## Overview
-This repository contains a detailed analysis of the Boston Housing market using multiple linear regression. The analysis was conducted using a comprehensive R script and is documented in a detailed 90-page report. The goal of this project is to understand the factors that affect housing prices and to predict housing values based on various predictor variables.
+This repository contains a detailed analysis of the Boston Housing market using multiple linear regression. The analysis was conducted using a comprehensive R script and is documented in a detailed  report. The goal of this project is to understand the factors that affect housing prices and to predict housing values based on various predictor variables.
 
 ## Files
 Boston_Housing_Analysis.R: This R script contains all the codes for conducting the multiple linear regression analysis.
@@ -59,7 +59,7 @@ The effectiveness of this transformation can be visually assessed through the co
   <img src="images/transformedHist.PNG" alt="Transformation Visualization">
 </div>
 
-After observing the normalization effects in the QQ plots and histograms, attention can now be turned to the practical implications of the transformations. Next, comparisons the actual versus predicted values for both the transformed and non-transformed models can be seen below to visualize the improvements in accuracy of the transformed model. This comparison, alongside the detailed summary() output of the transformed model, will highlight the enhancements in model performance and accuracy, illustrating the benefits of the Box-Cox transformation efforts.
+After observing the normalization effects in the QQ plots and histograms, attention can now be turned to the practical implications of the transformations. Next, comparisons the actual versus predicted values for both the transformed and non-transformed models can be seen below to visualize the improvements in accuracy of the transformed model. This comparison, alongside the summary() output of the transformed model, will highlight the enhancements in model performance and accuracy, illustrating the benefits of the Box-Cox transformation efforts.
 
 <div align="center">
   <img src="images/AvP.PNG" alt="Transformation Visualization">
@@ -69,7 +69,7 @@ After observing the normalization effects in the QQ plots and histograms, attent
   <img src="images/transformedSum.png" alt="Transformation Summary">
 </div>
 
-
+As seen above, the transformed model accounts for 3-4% more 
 
 
 
