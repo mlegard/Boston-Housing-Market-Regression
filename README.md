@@ -4,7 +4,7 @@ This repository contains a detailed analysis of the Boston Housing market using 
 
 ## Files
 Boston_Housing_Analysis.R: This R script contains all the codes for conducting the multiple linear regression analysis.
-Boston_Housing_Report.pdf: A detailed report that discusses the methodology, analysis, results, and conclusions.
+Boston_Housing_Analysis.pdf: A detailed report that discusses the methodology, analysis, results, and conclusions.
 
 ## Dataset
 The dataset used in this analysis is the Boston Housing dataset. Collected by for a study titled ‘Hedonic prices and the demand for clean air.’ by David Harrison Jr. and Daniel L. Rubinfeld, the data set contains information about the housing values in the suburbs of Boston.
@@ -68,6 +68,16 @@ After observing the normalization effects in the QQ plots and histograms, attent
 <div align="center">
   <img src="images/transformedSum.png" alt="Transformation Summary">
 </div>
+
+The comparison of actual versus predicted values for both the original and transformed models clearly shows a tighter alignment and reduced error in the transformed model's predictions. This improvement is quantitatively supported by the higher R-squared value in the summary() output, which increased from 0.73 in the original model to 0.76 in the transformed model, indicating a better fit to the data.
+
+These enhancements not only validate our transformation approach but also enhance the model's predictive reliability and accuracy. The final figure below visually encapsulates the success of our transformation efforts, presenting a side-by-side view of the transformed versus non-transformed model predictions, which vividly demonstrates the transformation's impact on model performance.
+
+<div align="center">
+  <img src="images/FTM" alt="Transformed Model">
+</div>
+
+This comprehensive analysis and the subsequent transformations have substantially optimized our model, making it a robust tool for predicting the median value of owner-occupied homes in Boston. We conclude our section on transformations here, confident that the modifications have prepared the model well for real-world application and further explorations.
 
 As seen above, the transformed model accounts for 3-4% more 
 
