@@ -39,7 +39,7 @@ Having examined the significant impacts of our key predictors, the focus returns
 
 The chart below displays the optimal lambda values determined through the Box-Cox transformation, which was utilized to stabilize variance and normalize the distribution of the dependent variable in the regression model. Each lambda value corresponds to a different variable, indicating the degree of transformation needed to meet the assumptions of linear regression.
 
-![Box-Cox transformation summary](images/optimalLambda.png)
+![Box-Cox transformation summary](images/optimalLambda.PNG)
 
 The transformation, with an optimal lambda value of 0.141414, was applied to the regression model to address non-normality of residuals. This transformation adjusts the scale and distribution of the data, aiming to reduce skewness and improve the model's validity.
 
