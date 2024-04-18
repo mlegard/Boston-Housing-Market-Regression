@@ -74,12 +74,11 @@ The comparison of actual versus predicted values for both the original and trans
 These enhancements not only validate our transformation approach but also enhance the model's predictive reliability and accuracy. The final figure below visually encapsulates the success of our transformation efforts, presenting a side-by-side view of the transformed versus non-transformed model predictions, which vividly demonstrates the transformation's impact on model performance.
 
 <div align="center">
-  <img src="images/FTM" alt="Transformed Model">
+  <img src="images/FTM.PNG" alt="Transformed Model">
 </div>
 
 This comprehensive analysis and the subsequent transformations have substantially optimized our model, making it a robust tool for predicting the median value of owner-occupied homes in Boston. We conclude our section on transformations here, confident that the modifications have prepared the model well for real-world application and further explorations.
 
-As seen above, the transformed model accounts for 3-4% more 
 
 
 
