@@ -22,7 +22,7 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
 
 ![Summary of Finalized Model](images/finalSum.png)
 
-This indicates that the 
+The preceding images provides a visual representation of the model's coefficients, and the summary() function in R indicates statistically significant p-values for all of the remaining features left in the model while the R-squared value indicates that approximately 73% of the variance in the median value of owner-occupied homes is explained by this model. These statistics underscore the relevance and effectiveness of the predictor variables and support the interpretations of how these variables influence the median value of owner-occupied homes, which are described below.
 
 * Each additional 25,000 square feet of residential land zoning increases the median home value by $39 on average, assuming other factors are constant.
 * A one-unit increase in nitric oxide concentration (per ten million parts) decreases the median home value by approximately $17,520 on average, with other factors held constant.
