@@ -18,7 +18,7 @@ To develop a predictive model for estimating the prices of houses based on their
 The analysis utilizes multiple linear regression techniques to explore the relationship between house prices and predictor variables such as crime rate, number of rooms, accessibility to highways, etc. The script performs data preprocessing, exploratory data analysis, model building, and validation steps.
 
 ## Results
-To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation below:
+To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation below. Some basic statistics of this model are provided by the summary() output in R, which can also be seen below.
 
 ![Finalized Model](images/FFM.PNG)
 
