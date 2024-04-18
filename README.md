@@ -22,6 +22,8 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
 
 ![Finalized Model](images/FFM.PNG)
 
+![Summary of Finalized Model](images/finalSum.PNG)
+
 This indicates that the 
 
 * Each additional 25,000 square feet of residential land zoning increases the median home value by $39 on average, assuming other factors are constant.
