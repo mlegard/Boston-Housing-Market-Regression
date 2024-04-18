@@ -50,9 +50,11 @@ The chart below displays the optimal lambda values determined through the Box-Co
 The transformation, with an optimal lambda value of 0.141414, was applied to the regression model to address non-normality of residuals. This transformation adjusts the scale and distribution of the data, aiming to reduce skewness and improve the model's validity.
 
 The effectiveness of this transformation can be visually assessed through the comparison of QQ-plots and histograms before and after applying the Box-Cox transformation. The first image below shows QQ-plots comparing the original and transformed data, highlighting the improved alignment with the normal line, indicative of a more normal distribution. The second image presents histograms of the data before and after transformation, where the smoothing of the distribution curve in the transformed histogram is evident, suggesting a successful normalization of the data.
+<div align="center">
+  <img src="images/transformedQQ.PNG" alt="Transformation Visualization">
+</div>
 
-![QQ Comparisons](images/transformedQQ.PNG)
-
-![HistogramComparisons](images/transformedHist.PNG)
-
+<div align="center">
+  <img src="images/transformedHist.PNG" alt="Transformation Visualization">
+</div>
 
