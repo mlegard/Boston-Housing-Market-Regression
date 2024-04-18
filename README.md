@@ -23,7 +23,7 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
 </div>
 
 <div align="center">
-  <img src="images/finalSum.PNG" alt="Finalized Model Summary">
+  <img src="images/finalSum.png" alt="Finalized Model Summary">
 </div>
 
 The preceding images provides a visual representation of the model's coefficients, and the summary() function in R indicates statistically significant p-values for all of the remaining features left in the model while the R-squared value indicates that approximately 73% of the variance in the median value of owner-occupied homes is explained by this model. These statistics underscore the relevance and effectiveness of the predictor variables and support the interpretations of how these variables influence the median value of owner-occupied homes, which are described below.
