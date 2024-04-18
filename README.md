@@ -7,12 +7,10 @@ Boston_Housing_Analysis.R: This R script contains all the codes for conducting t
 Boston_Housing_Report.pdf: A detailed report that discusses the methodology, analysis, results, and conclusions.
 
 ## Dataset
-The dataset used in this analysis is the Boston Housing dataset. Collected by for a study titled ‘Hedonic prices
-and the demand for clean air.’ by David Harrison Jr. and Daniel L. Rubinfeld, the data set contains information about the housing values in the suburbs of Boston.
+The dataset used in this analysis is the Boston Housing dataset. Collected by for a study titled ‘Hedonic prices and the demand for clean air.’ by David Harrison Jr. and Daniel L. Rubinfeld, the data set contains information about the housing values in the suburbs of Boston.
 
 ## Objectives
-To identify the factors that significantly impact the prices of houses in Boston.
-To develop a predictive model for estimating the prices of houses based on their characteristics.
+To identify the factors that significantly impact the prices of houses in Boston and develop a predictive model for estimating the prices of houses based on their characteristics.
 
 ## Methodology
 The analysis utilizes multiple linear regression techniques to explore the relationship between house prices and predictor variables such as crime rate, number of rooms, accessibility to highways, etc. The script performs data preprocessing, exploratory data analysis, model building, and validation steps.
