@@ -49,7 +49,8 @@ The chart below displays the optimal lambda values determined through the Box-Co
 
 The transformation, with an optimal lambda value of 0.141414, was applied to the regression model to address non-normality of residuals. This transformation adjusts the scale and distribution of the data, aiming to reduce skewness and improve the model's validity.
 
-The effectiveness of this transformation can be visually assessed through the comparison of QQ-plots and histograms before and after applying the Box-Cox transformation. The first image below shows QQ-plots comparing the original and transformed data, highlighting the improved alignment with the normal line, indicative of a more normal distribution. The second image presents histograms of the data before and after transformation, where the smoothing of the distribution curve in the transformed histogram is evident, suggesting a successful normalization of the data.
+The effectiveness of this transformation can be visually assessed through the comparison of QQ-plots and histograms before and after applying the Box-Cox transformation. The first image below shows QQ-plots comparing the original and transformed data, highlighting the improved alignment with the normal line, indicative of a more normal distribution. The second image presents histograms of the data before and after transformation, where the smoothing of the distribution curve in the transformed histogram is evident, which also suggests a successful normalization of the data.
+
 <div align="center">
   <img src="images/transformedQQ.PNG" alt="Transformation Visualization">
 </div>
@@ -57,4 +58,6 @@ The effectiveness of this transformation can be visually assessed through the co
 <div align="center">
   <img src="images/transformedHist.PNG" alt="Transformation Visualization">
 </div>
+
+After observing the normalization effects in the QQ plots and histograms, attention can now be turned to the practical implications of the transformations. Next, comparisons the actual versus predicted values for both the transformed and non-transformed models can be seen below to visualize the improvements in accuracy of the transformed model. This comparison, alongside the detailed summary() output of the transformed model, will highlight the enhancements in model performance and accuracy, illustrating the  benefits of the Box-Cox transformation efforts.
 
