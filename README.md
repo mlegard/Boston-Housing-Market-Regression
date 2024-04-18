@@ -45,8 +45,8 @@ The transformation, with an optimal lambda value of 0.141414, was applied to the
 
 The effectiveness of this transformation can be visually assessed through the comparison of QQ-plots and histograms before and after applying the Box-Cox transformation. The first image below shows QQ-plots comparing the original and transformed data, highlighting the improved alignment with the normal line, indicative of a more normal distribution. The second image presents histograms of the data before and after transformation, where the smoothing of the distribution curve in the transformed histogram is evident, suggesting a successful normalization of the data.
 
-![QQ Comparisons](images/transformedQQ.png)
+![QQ Comparisons](images/transformedQQ.PNG)
 
-![HistogramComparisons](images/transformedHist.png)
+![HistogramComparisons](images/transformedHist.PNG)
 
 
