@@ -22,7 +22,7 @@ To summarize the report, the finalized MLR model after undergoing a thourough fe
 
 ![Finalized Model](images/FFM.PNG)
 
-![Summary of Finalized Model](images/finalSum.PNG)
+![Summary of Finalized Model](images/finalSum.png)
 
 This indicates that the 
 
