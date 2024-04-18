@@ -62,11 +62,11 @@ The effectiveness of this transformation can be visually assessed through the co
 After observing the normalization effects in the QQ plots and histograms, attention can now be turned to the practical implications of the transformations. Next, comparisons the actual versus predicted values for both the transformed and non-transformed models can be seen below to visualize the improvements in accuracy of the transformed model. This comparison, alongside the detailed summary() output of the transformed model, will highlight the enhancements in model performance and accuracy, illustrating the benefits of the Box-Cox transformation efforts.
 
 <div align="center">
-  <img src="images/AvP" alt="Transformation Visualization">
+  <img src="images/AvP.PNG" alt="Transformation Visualization">
 </div>
 
 <div align="center">
-  <img src="images/transformedSum.PNG" alt="Transformation Summary">
+  <img src="images/transformedSum.png" alt="Transformation Summary">
 </div>
 
 
