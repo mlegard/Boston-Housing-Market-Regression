@@ -32,7 +32,7 @@ This indicates that the
 * Each one-unit increase in the proportion of African American residents increases the median home value by a mean value of $114, assuming other variables remain constant.
 * Each 1% increase in the lower status of the population decreases the median home value by approximately $580 on average, assuming other factors are constant.
 * (RAD2 - RAD24): These coefficients represent the incremental differences in median home values associated with varying levels of accessibility to radial highways (RAD values from 2 to 24). Each step up in RAD index typically increases the median home value, with specific increments depending on the RAD level, assuming all other factors are held constant. For example, RAD2 increases the value by an average $1,637, while RAD24 increases it by $3,974 on average.
-* Being located adjacent to the Charles River increases the median home value by approximately $3,974 on average compared to homes not adjacent, assuming other variables remain constant.
+* Being located adjacent to the Charles River increases the median home value by approximately $2,413 on average compared to homes not adjacent, assuming other variables remain constant.
 
 ## Optimization
 Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data - key assumptions to the validity of the regression model.
