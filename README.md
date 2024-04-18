@@ -20,7 +20,7 @@ The analysis utilizes multiple linear regression techniques to explore the relat
 ## Results
 To summarize the report, the finalized MLR model after undergoing a thourough feature selection process can be expressed by the equation below:
 
-![Finalized Model](images/final full model.png)
+![Finalized Model](images/FFM.png)
 
 ## Optimization
 Although the finalized model accounted for nearly 73 percent of the variability in the response variable (the median value of owner occupied homes), a Box-Cox transformation was applied to the model in the hopes of further normalizing the distribution and the residuals of the response data - key assumptions to the validity of the regression model.
