@@ -3,7 +3,7 @@
 This repository contains a detailed analysis of the Boston Housing market using multiple linear regression. The analysis was conducted using a comprehensive R script and is documented in a detailed  report. The goal of this project is to understand the factors that affect housing prices and to predict housing values based on various predictor variables.
 
 ## How It Works
-The analysis was conducted in R and utilizes multiple linear regression techniques to explore the relationship between house prices and predictor variables such as crime rate, number of rooms, accessibility to highways, etc. The script performs data preprocessing, exploratory data analysis, model building, and validation steps. The relevant libraries are 
+The analysis was conducted in R and utilizes multiple linear regression techniques to explore the relationship between house prices and predictor variables such as crime rate, number of rooms, accessibility to highways, etc. The script performs data preprocessing, exploratory data analysis, model formulation, model validation, and model refinement steps. The relevant libraries needed to run the script are ggplot2, caret, 
 
 ## Files
 Boston_Housing_Analysis.R: This R script contains all the codes for conducting the multiple linear regression analysis.
@@ -77,7 +77,7 @@ These enhancements not only validate our transformation approach but also enhanc
   <img src="images/FTM.PNG" alt="Transformed Model">
 </div>
 
-This comprehensive analysis and the subsequent transformations have substantially optimized our model, making it a robust tool for predicting the median value of owner-occupied homes in Boston. We conclude our section on transformations here, confident that the modifications have prepared the model well for real-world application and further explorations.
+The transformation has further optimized the model, making it a more reliable tool for predicting the median value of owner-occupied homes in Boston based on this data set. 
 
 ## Lessons Learned
 
