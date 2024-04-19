@@ -83,6 +83,7 @@ The transformation has further optimized the model, making it a more reliable to
 
 ## Sources
 * Data set retrieved from [Kaggle](https://www.kaggle.com/c/boston-housing)
+* Original study which published data: [Hedonic Prices and the Demand for Clean Air. Journal of Environmental Economics and Management](https://doi.org/10.1016/0095-0696(78)90006-2)
 
 
 
