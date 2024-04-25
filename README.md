@@ -82,6 +82,10 @@ The transformation has further optimized the model, making it a more reliable to
 
 ## Lessons Learned
 
+* Outlier handling: Advanced strategies like robust regression and specialized outlier detection algorithms are crucial for enhancing model resilience and interpretability.
+* Interactions and nonlinear relationships: Investigating variable interactions and higher-order terms can greatly increase model sophistication, however they also introduce unecessary complexity and decrease the model's interpretability, therefor were ultimately left out of the finalized model even though they were investigated.
+* Alternative models: Techniques such as decision tree regression, random forests, and support vector regression hold promise for more effectively capturing the complex relationships of the Boston housing market data set and should be explored furthe
+
 ## Sources
 * Data set retrieved from [Kaggle](https://www.kaggle.com/c/boston-housing)
 * Study that originally published data: [Hedonic Prices and the Demand for Clean Air. Journal of Environmental Economics and Management](https://doi.org/10.1016/0095-0696(78)90006-2)
